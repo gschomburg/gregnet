@@ -3,45 +3,19 @@
 <head>
 	<title>Test</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<ul class="tiles">
-		<li><img class="cover" src="images/a.jpg">
-			<div class="overlay">Sample</div>
-		</li>
-		<li><img class="cover" src="images/b.jpg">
-			<div class="overlay">Xamot Tomax Dollar</div>
-		</li>
-		<li><img class="cover" src="images/c.jpg">
-			<div class="overlay">Ipsum Dollar</div>
-		</li>
-		<li><img class="cover" src="images/a.jpg">
-			<div class="overlay">Ajax Dollar</div>
-		</li>
-		<li><img class="cover" src="images/b.jpg">
-			<div class="overlay">Fram Machine Dollar</div>
-		</li>
-		<li><img class="cover" src="images/c.jpg">
-			<div class="overlay">Romeeo Tango Dutch Dollar</div>
-		</li>
-		<li><img class="cover" src="images/a.jpg">
-			<div class="overlay">Yewloooos Dollar</div>
-		</li>
-		<li><img class="cover" src="images/b.jpg">
-			<div class="overlay">LoremIpsum Dollar</div>
-		</li>
-		<li><img class="cover" src="images/c.jpg">
-			<div class="overlay">LoremIpsum Dollar</div>
-		</li>
-		<li><img class="cover" src="images/a.jpg">
-			<div class="overlay">LoremIpsum Dollar</div>
-		</li>
-		<li><img class="cover" src="images/b.jpg">
-			<div class="overlay">LoremIpsum Dollar</div>
-		</li>
-		<li><img class="cover" src="images/c.jpg">
-			<div class="overlay">LoremIpsum Dollar</div>
-		</li>
+	<ul id="tiles">
 	</ul>
+	<script id="projectTemplate" type="x-tmpl-mustache">
+		<li><img class="cover" src="{{ project.poster }}">
+			<div class="overlay">{{ project.title }}</div>
+		</li>
+	</script>
+	
 </body>
 </html>

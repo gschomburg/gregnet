@@ -1,0 +1,188 @@
+{
+  "project_tiles": [
+  	{
+		"title":"BNS",
+		"poster": "images/coneyisland.jpg",
+		"shortname":"coneyisland"
+	},	
+		{
+			"title":"sketching_14",
+			"poster": "images/sketching_14.jpg",
+			"shortname":"sketching_14"
+		},
+		{
+			"title":"maze",
+			"poster": "images/maze.jpg",
+			"shortname":"maze"
+		},
+		{
+			"title":"visualizer",
+			"poster": "images/visualizer.jpg",
+			"shortname":"visualizer"
+		},
+		{
+			"title":"kinect_surface",
+			"poster": "images/kinect_surface.jpg",
+			"shortname":"kinect_surface"
+		},
+		{
+			"title":"processing_orbs",
+			"poster": "images/processing_orbs.jpg",
+			"shortname":"processing_orbs"
+		},
+	{
+		"title":"SIDE PROJECTS",
+		"poster": "images/badlands.jpg",
+		"shortname":"badlands"
+	},
+		{
+			"title":"combscript",
+			"poster": "images/combscript.jpg",
+			"shortname":"combscript"
+		},
+		{
+			"title":"drawbot",
+			"poster": "images/drawbot.jpg",
+			"shortname":"drawbot"
+		},
+		{
+			"title":"kinect",
+			"poster": "images/kinect.jpg",
+			"shortname":"kinect"
+		},
+		{
+			"title":"sutton",
+			"poster": "images/sutton.jpg",
+			"shortname":"sutton"
+		},
+  	{
+		"title":"TSFIM",
+		"poster": "images/tsfim1.jpg",
+		"shortname":"tsfim1"
+	},
+		{
+			"title":"tsfim_website",
+			"poster": "images/tsfim_website.jpg",
+			"shortname":"tsfim_website"
+		},
+		{
+			"title":"multitouch",
+			"poster": "images/multitouch.jpg",
+			"shortname":"multitouch"
+		},
+		{
+			"title":"brizo",
+			"poster": "images/brizo.jpg",
+			"shortname":"brizo"
+		},
+		{
+			"title":"diningbydesign",
+			"poster": "images/diningbydesign.jpg",
+			"shortname":"diningbydesign"
+		},
+		{
+			"title":"lace",
+			"poster": "images/lace.jpg",
+			"shortname":"lace"
+		},
+		{
+			"title":"weld",
+			"poster": "images/weld.jpg",
+			"shortname":"weld"
+		},
+	{
+		"title":"MCAD",
+		"poster": "images/foundation3d.jpg",
+		"shortname":"foundation3d"
+	},
+	  	{
+			"title":"2minuteposters",
+			"poster": "images/2minuteposters.jpg",
+			"shortname":"2minuteposters"
+		},
+		{
+			"title":"7figure",
+			"poster": "images/7figure.jpg",
+			"shortname":"7figure"
+		},
+		{
+			"title":"currentbalance",
+			"poster": "images/currentbalance.jpg",
+			"shortname":"currentbalance"
+		},
+		{
+			"title":"blow",
+			"poster": "images/blow.jpg",
+			"shortname":"blow"
+		},
+		{
+			"title":"londonsketches",
+			"poster": "images/londonsketches.jpg",
+			"shortname":"londonsketches"
+		},
+		
+		{
+			"title":"merits",
+			"poster": "images/merits.jpg",
+			"shortname":"merits"
+		},
+		
+		{
+			"title":"nobelsymphony",
+			"poster": "images/nobelsymphony.jpg",
+			"shortname":"nobelsymphony"
+		},
+		{
+			"title":"paintballchat",
+			"poster": "images/paintballchat.jpg",
+			"shortname":"paintballchat"
+		},
+		{
+			"title":"presence",
+			"poster": "images/presence.jpg",
+			"shortname":"presence"
+		},
+		{
+			"title":"kinetics",
+			"poster": "images/kinetics.jpg",
+			"shortname":"kinetics"
+		},
+		{
+			"title":"typegraphicdesign",
+			"poster": "images/typegraphicdesign.jpg",
+			"shortname":"typegraphicdesign"
+		},
+		{
+			"title":"redefiningprogress",
+			"poster": "images/redefiningprogress.jpg",
+			"shortname":"redefiningprogress"
+		},
+	{
+		"title":"s3iz",
+		"poster": "images/s3iz.jpg",
+		"shortname":"s3iz"
+	},
+		{
+			"title":"desktops",
+			"poster": "images/desktops.jpg",
+			"shortname":"desktops"
+		},
+		{
+			"title":"serahstar",
+			"poster": "images/serahstar.jpg",
+			"shortname":"serahstar"
+		},
+		{
+			"title":"drawflourish",
+			"poster": "images/drawflourish.jpg",
+			"shortname":"drawflourish"
+		},
+	{
+		"title":"unbrellanyc",
+		"poster": "images/unbrellanyc.jpg",
+		"shortname":"unbrellanyc"
+	}
+  ],
+  "other garbage": "xxx",
+  "more garbage": "xxxxxx"
+}
