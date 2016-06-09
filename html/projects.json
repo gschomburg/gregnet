@@ -6,6 +6,46 @@
 		"shortname":"coneyisland"
 	},	
 		{
+			"title":"Accenture Next News Now Kinect Presence",
+			"poster": "images/kinect_surface.jpg",
+			"shortname":"kinect_surface"
+		},
+		{
+			"title":"GE Mosaic",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"Poland Spring Raising Spirit",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"Herman Miller Living Office",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"Kaiser Permanente Center for Total Health",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"Indiana Farm Bureau Disaster Blaster",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"eBay Toys for Tots",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
+			"title":"AICP Awards Installation",
+			"poster": "images/ge_mosaic.jpg",
+			"shortname":"ge_mosaic"
+		},
+		{
 			"title":"sketching_14",
 			"poster": "images/sketching_14.jpg",
 			"shortname":"sketching_14"
@@ -19,11 +59,6 @@
 			"title":"visualizer",
 			"poster": "images/visualizer.jpg",
 			"shortname":"visualizer"
-		},
-		{
-			"title":"kinect_surface",
-			"poster": "images/kinect_surface.jpg",
-			"shortname":"kinect_surface"
 		},
 		{
 			"title":"processing_orbs",
