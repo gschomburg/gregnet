@@ -7,13 +7,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
 	
 	<script type="text/javascript" src="js/main.js"></script>
+	  <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Yantramanav:400,300,100,700,900,500' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Greg Schomburg is me">
 </head>
 <body>
 	<ul id="tiles">
+		<li>I'm the First Tile</li>
 	</ul>
 	<script id="projectTemplate" type="x-tmpl-mustache">
 		<li><a href="{{ project.url }}"><img class="cover" src="{{ project.poster }}">
-			<div class="overlay">{{ project.title }}</div></a>
+			<div class="overlay">{{{ project.title }}}<span class='subs'>{{{ project.subtitle }}}</span></div></a>
 		</li>
 	</script>
 	

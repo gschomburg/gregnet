@@ -1,23 +1,20 @@
+/*
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Archivo Narrow', sans-serif;
+*/
+
 body{
 	margin: 0;
 	padding: 0;
 	overflow-y: auto;
 	background: #010101;
 	color: #f7f7f7;
-	font-family: "Helvetica";
-	font-size: 2vw;
-}
-
-@media (max-width: 450px) {
-  body {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    font-size: 20px;
-  }
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.7vw;
 }
 
 #tiles
@@ -73,14 +70,27 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 1em;
+	padding: .3em; 
 	min-height: 200px;
 	position:absolute;
 	z-index: 1;
 	color:white;
-	background-color: rgba(0, 0, 0, .3);
+	//background-color: rgba(0, 0, 0, .5);
+	background: -webkit-linear-gradient(top, rgba(7,240,255,.4), rgba(241,0,164,.8));
+	background: linear-gradient(top, rgba(7,240,255,.4), rgba(241,0,164,.8));
 	transition: all .4s ease;
 	opacity: 0;
+
+	font-size: 2.1em;
+	// font-weight: 300;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: .05em;
+}
+
+.overlay .subs{
+	line-height:1.4em;
+	display:block;
+	font-size: .7em;
 }
 
 #tiles > li:hover .overlay{
@@ -108,26 +118,66 @@ body{
 	overflow: hidden;
 	position: relative;
 }
-.project-title{
-	z-index: 1;
-	position:absolute;
-	bottom: 0px;
-	left: 0px;
-	margin: 0;
-	padding: 15px 15px 0px 15px;
-	font-size: 3em;
+.splash .back{
+	border-radius: 100%;
+	width: 3em;
+	height: 3em;
 	background-color: white;
-	color: black;
+	z-index: 2;
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }
+.back img{
+
+}
+
 .info{
 	background-color: white;
 	flex-basis: 66.666%;
-
 	color: black;
 	padding: 15px;
 	box-sizing: border-box;
+	position: relative;
 }
+.info .offset{
+	z-index: 1;
+	position:absolute;
+	top: -3.65em;
+	left: 0px;
+}
+.info .project-title-wrap{
+	background-color: white;
+	padding: 15px 15px 0px 15px;
+	display: inline-block;
+	display: -moz-inline-stack;
+}
+.info .project-title{
+	font-family: 'Alfa Slab One', cursive;
+	// font-weight: 700;
+	// display: inline-block;
+	margin: 0;
+	margin-bottom: .1em;
+	
+	font-size: 4em;
+	line-height: .9em;
+	color: #07f0ff;
 
+	/*gradient*/
+	background: -webkit-linear-gradient(#07f0ff, #f100a4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.info .project-copy{
+	color: #f100a4;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.info .note{
+	background-color: #07f0ff;
+	color: #03646a;
+	padding: 10px;
+}
 
 .info p{
 	margin-top: 0px;
@@ -155,6 +205,21 @@ body{
 	content:'';
 	float:left;
 	padding-top:100%;
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 9px;
+  }
+  .info .project-title{
+  	font-size: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 450px) {

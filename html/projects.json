@@ -1,226 +1,172 @@
 {
-  "project_tiles": [
-  	{
-		"title":"BNS",
-		"poster": "images/coneyisland.jpg",
-		"shortname":"coneyisland"
-	},	
+  "project_tiles": [	
 		{
-			"title":"Accenture Next News Now Kinect Presence",
+			"title":"Next News Now",
+			"subtitle":"Kinect Server for Accenture Installation",
 			"poster": "images/kinect_surface.jpg",
 			"shortname":"kinect_surface"
 		},
 		{
-			"title":"GE Mosaic",
+			"title":"Reactive Mosaic",
+			"subtitle":"Lobby Installation <br/>at GE Headquarters",
 			"poster": "images/ge_mosaic.jpg",
 			"shortname":"ge_mosaic",
 			"url":"projects/gemosaic.html"
 		},
 		{
-			"title":"Poland Spring Raising Spirit",
-			"poster": "images/ge_mosaic.jpg",
+			"title":"Raising Spirit",
+			"subtitle":"Poland Spring Fundraising During the Boston Marathon",
+			"poster": "images/ps_1.png",
+			"shortname":"poland_spring"
+		},
+		{
+			"title":"Living Office",
+			"subtitle":"Design & Development for Herman Miller NeoCon Installation",
+			"poster": "images/7480-2L.jpg",
+			"shortname":"hm_neocon"
+		},
+		{
+			"title":"Center for Total Health",
+			"subtitle": "Installation for Kaiser Permanente",
+			"poster": "images/KAISER.jpg",
 			"shortname":"ge_mosaic"
 		},
 		{
-			"title":"Herman Miller Living Office",
-			"poster": "images/ge_mosaic.jpg",
-			"shortname":"ge_mosaic"
-		},
-		{
-			"title":"Kaiser Permanente Center for Total Health",
-			"poster": "images/ge_mosaic.jpg",
-			"shortname":"ge_mosaic"
-		},
-		{
-			"title":"Indiana Farm Bureau Disaster Blaster",
+			"title":"Disaster Blaster",
+			"subtitle": "Arcade Game for Indiana Farm Bureau",
 			"poster": "images/disaster_blaster.jpg",
 			"shortname":"disaster_blaster",
 			"url":"projects/disasterblaster.html"
 		},
 		{
-			"title":"eBay Toys for Tots",
-			"poster": "images/ge_mosaic.jpg",
-			"shortname":"ge_mosaic"
+			"title":"Toys for Tots",
+			"subtitle":"Interactive Storefront for eBay Donations",
+			"poster": "images/ebay_bts.jpg",
+			"shortname":"ebay"
 		},
 		{
-			"title":"AICP Awards Installation",
-			"poster": "images/ge_mosaic.jpg",
-			"shortname":"ge_mosaic"
+			"title":"<span style='font-size:.85em;'>Sketching<br/>in Hardware</span>",
+			"subtitle":"Website & Identity 2009 to 2016",
+			"poster": "images/sketching_maze.jpg",
+			"url": "projects/sketching-in-hardware.html",
+			"shortname":"sketching_in_hardware"
 		},
 		{
-			"title":"Sketching in Hardware",
-			"poster": "images/sketching_14.jpg",
-			"shortname":"sketching_14"
-		},
-		{
-			"title":"BNS Internal",
-			"poster": "images/sketching_14.jpg",
-			"shortname":"sketching_14"
-		},
-		{
-			"title":"maze",
-			"poster": "images/maze.jpg",
-			"shortname":"maze"
-		},
-		{
-			"title":"visualizer",
+			"title":"Brand<br/>New School<br/><span class='subs' style='font-size:.7em;'>Internal Projects & Prototyping</span>",
 			"poster": "images/visualizer.jpg",
-			"shortname":"visualizer"
+			"shortname":"prototypes"
 		},
 		{
-			"title":"processing_orbs",
-			"poster": "images/processing_orbs.jpg",
-			"shortname":"processing_orbs"
+			"title":"Sutton<br/>Nassau & Kosciuszko <span class='subs' style='font-size:.7em;'>Single Stroke Fonts</span>",
+			"poster": "images/sutton.jpg",
+			"shortname":"sutton"
 		},
-	{
-		"title":"SIDE PROJECTS",
-		"poster": "images/badlands.jpg",
-		"shortname":"badlands"
-	},
 		{
-			"title":"combscript",
+			"title":"Combscript<br/><span class='subs' style='font-size:.7em;'>A Language<br/>& Tool for Technical Designs</span>",
 			"poster": "images/combscript.jpg",
 			"shortname":"combscript"
 		},
 		{
-			"title":"drawbot",
+			"title":"Drawbot<br/><span class='subs' style='font-size:.7em;'>A Loud WhiteBoard Plotter</span>",
 			"poster": "images/drawbot.jpg",
 			"shortname":"drawbot"
 		},
 		{
-			"title":"kinect",
-			"poster": "images/kinect.jpg",
-			"shortname":"kinect"
-		},
-		{
-			"title":"sutton",
-			"poster": "images/sutton.jpg",
-			"shortname":"sutton"
-		},
-  	{
-		"title":"TSFIM",
-		"poster": "images/tsfim1.jpg",
-		"shortname":"tsfim1"
-	},
-		{
-			"title":"tsfim_website",
+			"title":"The<br/>Studio for<br/>Interactive Media",
+			"subtitle":"Website & Blog",
 			"poster": "images/tsfim_website.jpg",
 			"shortname":"tsfim_website"
 		},
 		{
-			"title":"multitouch",
-			"poster": "images/multitouch.jpg",
-			"shortname":"multitouch"
-		},
-		{
-			"title":"brizo",
+			"title":"Brizo Touch <span class='subs' style='font-size:.7em;'>Faucet Controlled Digital Signage</span>",
 			"poster": "images/brizo.jpg",
 			"shortname":"brizo"
 		},
 		{
-			"title":"diningbydesign",
+			"title":"Dining by Design <span class='subs' style='font-size:.7em;'>LED Chandelier</span>",
 			"poster": "images/diningbydesign.jpg",
 			"shortname":"diningbydesign"
 		},
 		{
-			"title":"lace",
-			"poster": "images/lace.jpg",
-			"shortname":"lace"
+			"title":"IBM <span class='subs' style='font-size:.7em;'>Color Sign Thing</span>",
+			"poster": "images/IBM_1.png",
+			"shortname":"ibm"
 		},
-		{
-			"title":"weld",
-			"poster": "images/weld.jpg",
-			"shortname":"weld"
-		},
-	{
-		"title":"MCAD",
-		"poster": "images/foundation3d.jpg",
-		"shortname":"foundation3d"
-	},
 	  	{
-			"title":"2minuteposters",
+			"title":"Two Minute Posters <span class='subs' style='font-size:.7em;'>Experiments in Time Management</span>",
 			"poster": "images/2minuteposters.jpg",
 			"shortname":"2minuteposters"
 		},
 		{
-			"title":"7figure",
-			"poster": "images/7figure.jpg",
-			"shortname":"7figure"
-		},
-		{
-			"title":"currentbalance",
+			"title":"VS Series<br/>aka Money Is Media",
 			"poster": "images/currentbalance.jpg",
 			"shortname":"currentbalance"
 		},
 		{
-			"title":"blow",
+			"title":"Blow<br/><span class='subs' style='font-size:.7em;'>Corrupting Compression</span>",
 			"poster": "images/blow.jpg",
 			"shortname":"blow"
 		},
 		{
-			"title":"londonsketches",
+			"title":"Sketches",
 			"poster": "images/londonsketches.jpg",
 			"shortname":"londonsketches"
 		},
 		
 		{
-			"title":"merits",
+			"title":"MCAD Merits Install",
 			"poster": "images/merits.jpg",
 			"shortname":"merits"
 		},
 		
 		{
-			"title":"nobelsymphony",
+			"title":"<span style='font-size:.9em;'>Nobel Symphony</span> <span class='subs' style='font-size:.7em;'>Group Project</span>",
 			"poster": "images/nobelsymphony.jpg",
 			"shortname":"nobelsymphony"
 		},
 		{
-			"title":"paintballchat",
+			"title":"This Can Hurt You",
+			"subtitle":"http Initiated Paintball Video Chat",
 			"poster": "images/paintballchat.jpg",
 			"shortname":"paintballchat"
 		},
 		{
-			"title":"presence",
+			"title":"MCAD Interactive Media Projects",
 			"poster": "images/presence.jpg",
 			"shortname":"presence"
 		},
 		{
-			"title":"kinetics",
+			"title":"Kinetics <span class='subs' style='font-size:.7em;'>Lessons in Electrical Engineering</span>",
 			"poster": "images/kinetics.jpg",
 			"shortname":"kinetics"
 		},
 		{
-			"title":"typegraphicdesign",
+			"title":"MCAD<br/><span class='subs' style='font-size:.7em;'>Design Typography & Photography Projects</span>",
 			"poster": "images/typegraphicdesign.jpg",
 			"shortname":"typegraphicdesign"
 		},
 		{
-			"title":"redefiningprogress",
+			"title":"Redefining<br/>Progress <span class='subs' style='font-size:.7em;'>Making the Most of Consumer Grade Lumens</span>",
 			"poster": "images/redefiningprogress.jpg",
 			"shortname":"redefiningprogress"
 		},
-	{
-		"title":"s3iz",
-		"poster": "images/s3iz.jpg",
-		"shortname":"s3iz"
-	},
 		{
-			"title":"desktops",
-			"poster": "images/desktops.jpg",
-			"shortname":"desktops"
+			"title":"s3iz<br/><span class='subs' style='font-size:.7em;'>Freelance Flash Design Development & Prototypes</span>",
+			"poster": "images/s3iz.jpg",
+			"shortname":"s3iz"
 		},
 		{
-			"title":"serahstar",
+			"title":"3 Studios <span class='subs' style='font-size:.7em;'>Website for Architecture Studio</span>",
+			"poster": "images/desktops.jpg",
+			"shortname":"3_studios"
+		},
+		{
+			"title":"Serah Star <span class='subs' style='font-size:.7em;'>Photographer Website</span>",
 			"poster": "images/serahstar.jpg",
 			"shortname":"serahstar"
 		},
-		{
-			"title":"drawflourish",
-			"poster": "images/drawflourish.jpg",
-			"shortname":"drawflourish"
-		},
 	{
-		"title":"unbrellanyc",
+		"title":"Umbrella Day NYC (not a link)",
 		"poster": "images/unbrellanyc.jpg",
 		"shortname":"unbrellanyc"
 	}
