@@ -33,8 +33,9 @@
 		},
 		{
 			"title":"Indiana Farm Bureau Disaster Blaster",
-			"poster": "images/ge_mosaic.jpg",
-			"shortname":"ge_mosaic"
+			"poster": "images/disaster_blaster.jpg",
+			"shortname":"disaster_blaster",
+			"url":"projects/disasterblaster.html"
 		},
 		{
 			"title":"eBay Toys for Tots",
@@ -47,7 +48,12 @@
 			"shortname":"ge_mosaic"
 		},
 		{
-			"title":"sketching_14",
+			"title":"Sketching in Hardware",
+			"poster": "images/sketching_14.jpg",
+			"shortname":"sketching_14"
+		},
+		{
+			"title":"BNS Internal",
 			"poster": "images/sketching_14.jpg",
 			"shortname":"sketching_14"
 		},
