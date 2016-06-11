@@ -128,21 +128,19 @@ body{
 	top: 15px;
 	left: 15px;
 }
-.back img{
-
-}
 
 .info{
 	background-color: white;
 	flex-basis: 66.666%;
+	flex-grow: 1;
 	color: black;
-	padding: 15px;
+
 	box-sizing: border-box;
 	position: relative;
 }
 .info .offset{
 	z-index: 1;
-	position:absolute;
+	position:relative;
 	top: -3.65em;
 	left: 0px;
 }
@@ -177,10 +175,12 @@ body{
 	background-color: #07f0ff;
 	color: #03646a;
 	padding: 10px;
+	margin-bottom: 1em;
 }
 
 .info p{
 	margin-top: 0px;
+	margin-bottom: 1em;
 }
 
 .gallery{
@@ -214,22 +214,16 @@ body{
   .info .project-title{
   	font-size: 3em;
   }
+  .gallery {
+  	flex-basis: 100%;
+  }
+  .info {
+  	flex-basis: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
   body {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 450px) {
- /*.info {
-    flex-basis: 50%;
-  }
-  .gallery{
-  	flex-basis: 50%;
-  }*/
-  .gallery li{
-  	flex-basis: 100%;
   }
 }

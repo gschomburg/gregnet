@@ -20,16 +20,22 @@
 			"shortname":"poland_spring"
 		},
 		{
+			"title":"Brand New School",
+			"subtitle":"Website for the Studio",
+			"poster": "images/bns_site_1.jpg",
+			"shortname":"bns_wedsite"
+		},
+		{
 			"title":"Living Office",
 			"subtitle":"Design & Development for Herman Miller NeoCon Installation",
 			"poster": "images/7480-2L.jpg",
 			"shortname":"hm_neocon"
 		},
 		{
-			"title":"Center for Total Health",
-			"subtitle": "Installation for Kaiser Permanente",
-			"poster": "images/KAISER.jpg",
-			"shortname":"ge_mosaic"
+			"title":"Toys for Tots",
+			"subtitle":"Interactive Storefront for eBay Donations",
+			"poster": "images/ebay_bts.jpg",
+			"shortname":"ebay"
 		},
 		{
 			"title":"Disaster Blaster",
@@ -39,10 +45,10 @@
 			"url":"projects/disasterblaster.html"
 		},
 		{
-			"title":"Toys for Tots",
-			"subtitle":"Interactive Storefront for eBay Donations",
-			"poster": "images/ebay_bts.jpg",
-			"shortname":"ebay"
+			"title":"Center for Total Health",
+			"subtitle": "Installation for Kaiser Permanente",
+			"poster": "images/KAISER.jpg",
+			"shortname":"ge_mosaic"
 		},
 		{
 			"title":"<span style='font-size:.85em;'>Sketching<br/>in Hardware</span>",
@@ -165,6 +171,21 @@
 			"poster": "images/serahstar.jpg",
 			"shortname":"serahstar"
 		},
+	{
+		"title":"Umbrella Day NYC (not a link)",
+		"poster": "images/unbrellanyc.jpg",
+		"shortname":"unbrellanyc"
+	},
+	{
+		"title":"Umbrella Day NYC (not a link)",
+		"poster": "images/unbrellanyc.jpg",
+		"shortname":"unbrellanyc"
+	},
+	{
+		"title":"Umbrella Day NYC (not a link)",
+		"poster": "images/unbrellanyc.jpg",
+		"shortname":"unbrellanyc"
+	},
 	{
 		"title":"Umbrella Day NYC (not a link)",
 		"poster": "images/unbrellanyc.jpg",
