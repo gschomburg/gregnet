@@ -65,8 +65,7 @@ body{
 }
 
 .overlay {
-	// background: rgba(0,0,0,.1);
-	top: 0%;
+	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -75,14 +74,12 @@ body{
 	position:absolute;
 	z-index: 1;
 	color:white;
-	//background-color: rgba(0, 0, 0, .5);
 	background: -webkit-linear-gradient(top, rgba(7,240,255,.4), rgba(241,0,164,.8));
 	background: linear-gradient(top, rgba(7,240,255,.4), rgba(241,0,164,.8));
 	transition: all .4s ease;
 	opacity: 0;
 
 	font-size: 2.1em;
-	// font-weight: 300;
 	font-family: 'Alfa Slab One', cursive;
 	letter-spacing: .05em;
 }
@@ -92,11 +89,29 @@ body{
 	display:block;
 	font-size: .7em;
 }
+.intro{
+	padding: .6em;
+	/*background-color: #f100a4;*/
+	background: -webkit-linear-gradient(#07f0ff, #f100a4);
 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.intro .name{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2.1em;
+}
+.intro .contact{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 1em;
+}
 #tiles > li:hover .overlay{
 	opacity: 1;
-	// top: 0%;
-	// background-color: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -107,7 +122,6 @@ body{
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	/*border: 1px solid yellow;*/
 	position: relative;
 }
 .splash{
@@ -152,8 +166,6 @@ body{
 }
 .info .project-title{
 	font-family: 'Alfa Slab One', cursive;
-	// font-weight: 700;
-	// display: inline-block;
 	margin: 0;
 	margin-bottom: .1em;
 	
@@ -209,7 +221,8 @@ body{
 
 @media (max-width: 450px) {
   body {
-    font-size: 9px;
+    /*font-size: 10px;*/
+    font-size: 3.4vw;
   }
   .info .project-title{
   	font-size: 3em;
@@ -219,6 +232,9 @@ body{
   }
   .info {
   	flex-basis: 100%;
+  }
+  #tiles > li{
+  	flex-basis: 50%;
   }
 }
 
