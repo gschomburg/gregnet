@@ -91,8 +91,8 @@ body{
 }
 .intro{
 	padding: .6em;
-	/*background-color: #f100a4;*/
-	background: -webkit-linear-gradient(#07f0ff, #f100a4);
+	background-color: #f100a4;
+	/*background: -webkit-linear-gradient(#07f0ff, #f100a4);*/
 
 	top: 0;
 	bottom: 0;

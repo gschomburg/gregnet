@@ -3,10 +3,98 @@
 	{
 		"selected_items":
 		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"flex-",
+				"flex-grow"
+			],
+			[
+				"fle",
+				"flex-basis"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mr",
+				"margin"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "html/projects.json",
+			"settings":
+			{
+				"buffer_size": 5945,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "notes.todo",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 1150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3744,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/projects/gemosaic.html",
+			"settings":
+			{
+				"buffer_size": 3455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/projects/disasterblaster.html",
+			"settings":
+			{
+				"buffer_size": 3256,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,7 +103,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 588.0,
 		"last_filter": "pack",
 		"selected_items":
 		[
@@ -24,7 +112,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 600.0
 	},
 	"console":
 	{
@@ -45,16 +133,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/gschomburg/Documents/Projects/gregnet"
+		"/C/Users/gschomburg/Documents/Projects/gregnet",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects"
 	],
 	"file_history":
 	[
+		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.txt",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/detail.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/testProject.jade",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/projectTemplate.jade",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/gulp.js",
+		"/C/Users/gschomburg/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css/style.css",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/main.js",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects.json",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.txt",
-		"/C/Users/gschomburg/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings"
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects.json"
 	],
 	"find":
 	{
@@ -72,6 +167,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ge_01",
+			"ge_splash",
+			"<li>",
 			"BNS",
 			"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 			"xxxxxxxxxxxxxxxxxxxxxxx",
@@ -94,8 +192,185 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "html/projects.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								851,
+								851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "notes.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1103,
+								1103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ToDone/ToDone.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								738,
+								738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1472,
+								1472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "html/projects/gemosaic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "html/projects/disasterblaster.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -130,11 +405,15 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 586.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Jade Build/Jade.sublime-build",
 	"project": "gregnet.sublime-project",
 	"replace":
 	{
