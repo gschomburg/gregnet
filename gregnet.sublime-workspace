@@ -126,12 +126,12 @@
 	"expanded_folders":
 	[
 		"/C/Users/gschomburg/Documents/Projects/gregnet",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects"
 	],
 	"file_history":
 	[
+		"/C/Users/gschomburg/Documents/Projects/gregnet/.gitignore",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gemosaic.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.txt",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
@@ -185,7 +185,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -230,8 +230,8 @@
 						"selection":
 						[
 							[
-								79,
-								79
+								377,
+								377
 							]
 						],
 						"settings":
@@ -242,7 +242,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -331,7 +331,7 @@
 						"translation.y": 537.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
