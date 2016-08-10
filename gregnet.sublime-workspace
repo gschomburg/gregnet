@@ -67,7 +67,15 @@
 			"file": "html/index.html",
 			"settings":
 			{
-				"buffer_size": 1150,
+				"buffer_size": 1149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/gschomburg/AppData/Local/Temp/7zO87E97F33/README.md",
+			"settings":
+			{
+				"buffer_size": 16342,
 				"line_ending": "Windows"
 			}
 		},
@@ -126,15 +134,14 @@
 	"expanded_folders":
 	[
 		"/C/Users/gschomburg/Documents/Projects/gregnet",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects"
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html"
 	],
 	"file_history":
 	[
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/.gitignore",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gemosaic.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.txt",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/detail.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/testProject.jade",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/projectTemplate.jade",
@@ -185,7 +192,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -210,7 +217,7 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 1863.0,
 						"zoom_level": 1.0
 					},
@@ -230,8 +237,8 @@
 						"selection":
 						[
 							[
-								377,
-								377
+								122,
+								122
 							]
 						],
 						"settings":
@@ -242,7 +249,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -251,15 +258,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1150,
+						"buffer_size": 1149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								738,
-								738
+								0,
+								0
 							]
 						],
 						"settings":
@@ -271,11 +278,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "/C/Users/gschomburg/AppData/Local/Temp/7zO87E97F33/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7245.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "html/css/style.css",
 					"semi_transient": false,
 					"settings":
@@ -300,11 +335,11 @@
 						"translation.y": 1663.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "html/projects/disasterblaster.html",
 					"semi_transient": false,
 					"settings":
@@ -331,7 +366,7 @@
 						"translation.y": 537.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
