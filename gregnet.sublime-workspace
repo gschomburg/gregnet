@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-size"
+				"padd",
+				"padding-bottom"
 			],
 			[
 				"marg",
-				"margin"
+				"margin-bottom"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"background-c",
@@ -32,10 +40,6 @@
 				"padding"
 			],
 			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"fon",
 				"font-size"
 			],
@@ -48,27 +52,11 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/gschomburg/.gitconfig",
+			"file": "html/projects/sketching-in-hardware.html",
 			"settings":
 			{
-				"buffer_size": 354,
+				"buffer_size": 6146,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/gschomburg/Documents/Projects/cairn/cairn_unity/Assets/MergeScene.unity",
-			"settings":
-			{
-				"buffer_size": 17190,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "html/projects.json",
-			"settings":
-			{
-				"buffer_size": 5938,
 				"line_ending": "Windows"
 			}
 		}
@@ -112,13 +100,17 @@
 	[
 		"/C/Users/gschomburg/Documents/Projects/gregnet",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/featherlight"
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/featherlight",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects"
 	],
 	"file_history":
 	[
-		"/C/Users/gschomburg/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
-		"/C/Users/gschomburg/.gitconfig",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/disasterblaster.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css/style.css",
+		"/C/Users/gschomburg/Documents/Projects/cairn/cairn_unity/Assets/MergeScene.unity",
+		"/C/Users/gschomburg/.gitconfig",
+		"/C/Users/gschomburg/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
 		"/C/Users/gschomburg/Documents/Projects/krakinos_dev/Karkinos/Assets/ViveGrip/Examples/README.md",
 		"/C/Users/gschomburg/Documents/Projects/krakinos_dev/Karkinos/Assets/ViveGrip/Examples/EXTENSIONS.md",
 		"/C/Users/gschomburg/Documents/Libs/ViveGrip/README.md",
@@ -128,7 +120,6 @@
 		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.todo",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects.json",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/disasterblaster.html",
 		"/C/Users/gschomburg/AppData/Local/Temp/7zO8D8D56D3/README.md",
 		"/C/Users/gschomburg/AppData/Local/Temp/7zO8D8B8C10/README.md",
 		"/C/Users/gschomburg/Documents/Projects/Playgrounds/.gitignore",
@@ -189,89 +180,32 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/gschomburg/.gitconfig",
+					"file": "html/projects/sketching-in-hardware.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 354,
+						"buffer_size": 6146,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								738,
+								738
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/gschomburg/Documents/Projects/cairn/cairn_unity/Assets/MergeScene.unity",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1578,
-								1578
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/projects.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
