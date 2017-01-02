@@ -1,10 +1,6 @@
 /**
  * Featherlight Gallery – an extension for the ultra slim jQuery lightbox
-<<<<<<< HEAD
  * Version 1.5.0 - http://noelboss.github.io/featherlight/
-=======
- * Version 1.4.0 - http://noelboss.github.io/featherlight/
->>>>>>> origin/master
  *
  * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
