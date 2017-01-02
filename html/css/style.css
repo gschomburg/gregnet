@@ -220,6 +220,22 @@ body{
 	position: relative;
 	box-sizing: border-box;
 }
+
+.cta{
+	background-color: white;
+	color: #f100a4;
+	text-transform: uppercase;
+	position: relative;
+	top:38%;
+	/*display: inline;*/
+	padding: .05em .2em;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2em;
+	width:4em;
+	margin: 0 auto;
+	text-align: center;
+	pointer-events: none;
+}
 .gallery > li:before {
 	content:'';
 	float:left;
