@@ -250,6 +250,64 @@ body{
 	padding-top:50%;
 }
 
+.gallery li.full{
+	flex-basis: 100%;
+	/*flex: 1 1 25%;*/
+	overflow: hidden;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+.gallery > li.full:before {
+	content:'';
+	float:left;
+	padding-top:50%;
+}
+
+
+/*featherlight overrides */
+
+.featherlight.vimeo .featherlight-content,
+.featherlight.image .featherlight-content {
+  background: black;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+}
+.featherlight.vimeo .featherlight-next,
+.featherlight.image .featherlight-next {
+  display: none;
+}
+.featherlight.vimeo .featherlight-previous,
+.featherlight.image .featherlight-previous {
+  display: none;
+}
+.featherlight.vimeo iframe,
+.featherlight.image iframe {
+  width: 90vw;
+  height: 50.625vw;
+  max-height: 90%;
+}
+.featherlight.vimeo .featherlight-close-icon,
+.featherlight.image .featherlight-close-icon {
+  left: 10px;
+  top: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  background: rgba(23, 35, 34, 0.75);
+  color: white;
+  line-height: 36px;
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.featherlight.vimeo .featherlight-content:hover .featherlight-close-icon,
+.featherlight.image .featherlight-content:hover .featherlight-close-icon {
+  opacity: 1;
+}
+
+
 @media (max-width: 450px) {
   body {
     /*font-size: 10px;*/
