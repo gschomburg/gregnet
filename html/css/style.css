@@ -89,16 +89,21 @@ body{
 	display:block;
 	font-size: .7em;
 }
-.intro{
+#tiles .intro{
 	padding: .6em;
 	background-color: #f100a4;
 	/*background: -webkit-linear-gradient(#07f0ff, #f100a4);*/
-
-	top: 0;
+	flex-basis: 50%;
+/*	top: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
-	position: absolute;
+	right: 0;*/
+	/*position: absolute;*/
+}
+#tiles li.intro:before  {
+	content:'';
+	float:left;
+	padding-top:75%;
 }
 .intro .name{
 	font-family: 'Alfa Slab One', cursive;
@@ -278,6 +283,19 @@ body{
 	content:'';
 	float:left;
 	padding-top:50%;
+}
+.gallery li.half{
+	flex-basis: 50%;
+	/*flex: 1 1 25%;*/
+	overflow: hidden;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+.gallery > li.half:before {
+	content:'';
+	float:left;
+	padding-top:100%;
 }
 
 

@@ -4,7 +4,8 @@
 			"title":"Next News Now",
 			"subtitle":"Kinect Server for Accenture Installation",
 			"poster": "images/kinect_surface.jpg",
-			"shortname":"kinect_surface"
+			"shortname":"kinect_surface",
+			"url":"projects/accenture.html"
 		},
 		{
 			"title":"Reactive Mosaic",
@@ -17,25 +18,36 @@
 			"title":"Raising Spirit",
 			"subtitle":"Poland Spring Fundraising During the Boston Marathon",
 			"poster": "images/ps_1.png",
-			"shortname":"poland_spring"
+			"shortname":"poland_spring",
+			"url":"projects/polandspring.html"
 		},
 		{
 			"title":"Brand New School",
 			"subtitle":"Website for the Studio",
 			"poster": "images/bns_site_1.jpg",
-			"shortname":"bns_wedsite"
+			"shortname":"bns_wedsite",
+			"url":"projects/bnswebsite.html"
+		},
+		{
+			"title":"Escape From Planet Five",
+			"subtitle":"VR Whack a Mole",
+			"poster": "images/escapefromplanetfive.jpg",
+			"shortname":"escape",
+			"url":"projects/escape.html"
 		},
 		{
 			"title":"Living Office",
 			"subtitle":"Design & Development for Herman Miller NeoCon Installation",
 			"poster": "images/7480-2L.jpg",
-			"shortname":"hm_neocon"
+			"shortname":"hm_neocon",
+			"url":"projects/hermanmiller.html"
 		},
 		{
 			"title":"Toys for Tots",
 			"subtitle":"Interactive Storefront for eBay Donations",
 			"poster": "images/ebay_bts.jpg",
-			"shortname":"ebay"
+			"shortname":"ebay",
+			"url":"projects/ebay.html"
 		},
 		{
 			"title":"Disaster Blaster",
@@ -48,7 +60,8 @@
 			"title":"Center for Total Health",
 			"subtitle": "Installation for Kaiser Permanente",
 			"poster": "images/KAISER.jpg",
-			"shortname":"ge_mosaic"
+			"shortname":"cth",
+			"url":"projects/cth.html"
 		},
 		{
 			"title":"<span style='font-size:.85em;'>Sketching<br/>in Hardware</span>",
@@ -58,77 +71,77 @@
 			"shortname":"sketching_in_hardware"
 		},
 		{
-			"title":"Brand<br/>New School<br/><span class='subs' style='font-size:.7em;'>Internal Projects & Prototyping</span>",
+			"title":"Misc Projects & Prototypes",
 			"poster": "images/visualizer.jpg",
-			"shortname":"prototypes"
+			"shortname":"prototypes",
+			"url":"projects/bnsprototypes.html"
 		},
 		{
 			"title":"Sutton<br/>Nassau & Kosciuszko <span class='subs' style='font-size:.7em;'>Single Stroke Fonts</span>",
 			"poster": "images/sutton.jpg",
-			"shortname":"sutton"
+			"shortname":"sutton",
+			"url":"projects/gregfont.html"
 		},
 		{
 			"title":"Combscript<br/><span class='subs' style='font-size:.7em;'>A Language<br/>& Tool for Technical Designs</span>",
 			"poster": "images/combscript.jpg",
-			"shortname":"combscript"
+			"shortname":"combscript",
+			"url":"projects/combscript.html"
 		},
 		{
 			"title":"Drawbot<br/><span class='subs' style='font-size:.7em;'>A Loud WhiteBoard Plotter</span>",
 			"poster": "images/drawbot.jpg",
-			"shortname":"drawbot"
+			"shortname":"drawbot",
+			"url":"projects/drawbot.html"
 		},
 		{
 			"title":"The<br/>Studio for<br/>Interactive Media",
 			"subtitle":"Website & Blog",
 			"poster": "images/tsfim_website.jpg",
-			"shortname":"tsfim_website"
+			"shortname":"tsfim_website",
+			"url":"projects/tsfim.html"
 		},
 		{
 			"title":"Brizo Touch <span class='subs' style='font-size:.7em;'>Faucet Controlled Digital Signage</span>",
 			"poster": "images/brizo.jpg",
-			"shortname":"brizo"
+			"shortname":"brizo",
+			"url":"projects/brizo.html"
 		},
 		{
 			"title":"Dining by Design <span class='subs' style='font-size:.7em;'>LED Chandelier</span>",
 			"poster": "images/diningbydesign.jpg",
-			"shortname":"diningbydesign"
+			"shortname":"diningbydesign",
+			"url":"projects/diffa.html"
 		},
 		{
 			"title":"IBM <span class='subs' style='font-size:.7em;'>Color Sign Thing</span>",
 			"poster": "images/IBM_1.png",
-			"shortname":"ibm"
+			"shortname":"ibm",
+			"url":"projects/ibm.html"
 		},
 	  	{
 			"title":"Two Minute Posters <span class='subs' style='font-size:.7em;'>Experiments in Time Management</span>",
 			"poster": "images/2minuteposters.jpg",
-			"shortname":"2minuteposters"
-		},
-		{
-			"title":"VS Series<br/>aka Money Is Media",
-			"poster": "images/currentbalance.jpg",
-			"shortname":"currentbalance"
-		},
-		{
-			"title":"Blow<br/><span class='subs' style='font-size:.7em;'>Corrupting Compression</span>",
-			"poster": "images/blow.jpg",
-			"shortname":"blow"
+			"shortname":"2minuteposters",
+			"url":"projects/twominuteposters.html"
 		},
 		{
 			"title":"Sketches",
 			"poster": "images/londonsketches.jpg",
-			"shortname":"londonsketches"
+			"shortname":"londonsketches",
+			"url":"projects/sketch.html"
 		},
-		
 		{
-			"title":"*MCAD Merits Install",
-			"poster": "images/merits.jpg",
-			"shortname":"merits"
+			"title":"VS Series<br/>aka Money Is Media",
+			"poster": "images/currentbalance.jpg",
+			"shortname":"currentbalance",
+			"url":"projects/vsseries.html"
 		},
-		
 		{
-			"title":"<span style='font-size:.9em;'>Nobel Symphony</span> <span class='subs' style='font-size:.7em;'>Group Project</span>",
-			"poster": "images/nobelsymphony.jpg",
-			"shortname":"nobelsymphony"
+			"title":"MCAD<br/><span class='subs' style='font-size:.7em;'>Design Typography & Photography Projects</span>",
+			"poster": "images/typegraphicdesign.jpg",
+			"shortname":"typegraphicdesign",
+			"url":"projects/mcad.html"
 		},
 		{
 			"title":"This Can Hurt You",
@@ -137,29 +150,10 @@
 			"shortname":"paintballchat"
 		},
 		{
-			"title":"MCAD Interactive Media Projects",
-			"poster": "images/presence.jpg",
-			"shortname":"presence"
-		},
-		{
-			"title":"Kinetics <span class='subs' style='font-size:.7em;'>Lessons in Electrical Engineering</span>",
-			"poster": "images/kinetics.jpg",
-			"shortname":"kinetics"
-		},
-		{
-			"title":"MCAD<br/><span class='subs' style='font-size:.7em;'>Design Typography & Photography Projects</span>",
-			"poster": "images/typegraphicdesign.jpg",
-			"shortname":"typegraphicdesign"
-		},
-		{
-			"title":"Redefining<br/>Progress <span class='subs' style='font-size:.7em;'>Making the Most of Consumer Grade Lumens</span>",
-			"poster": "images/redefiningprogress.jpg",
-			"shortname":"redefiningprogress"
-		},
-		{
 			"title":"s3iz<br/><span class='subs' style='font-size:.7em;'>Freelance Flash Design Development & Prototypes</span>",
 			"poster": "images/s3iz.jpg",
-			"shortname":"s3iz"
+			"shortname":"s3iz",
+			"url":"projects/s3iz.html"
 		},
 		{
 			"title":"3 Studios <span class='subs' style='font-size:.7em;'>Website for Architecture Studio</span>",
@@ -169,28 +163,50 @@
 		{
 			"title":"Serah Star <span class='subs' style='font-size:.7em;'>Photographer Website</span>",
 			"poster": "images/serahstar.jpg",
-			"shortname":"serahstar"
-		},
-	{
-		"title":"Umbrella Day NYC (not a link)",
-		"poster": "images/unbrellanyc.jpg",
-		"shortname":"unbrellanyc"
-	},
-	{
-		"title":"Umbrella Day NYC (not a link)",
-		"poster": "images/unbrellanyc.jpg",
-		"shortname":"unbrellanyc"
-	},
-	{
-		"title":"Umbrella Day NYC (not a link)",
-		"poster": "images/unbrellanyc.jpg",
-		"shortname":"unbrellanyc"
-	},
-	{
-		"title":"Umbrella Day NYC (not a link)",
-		"poster": "images/unbrellanyc.jpg",
-		"shortname":"unbrellanyc"
-	}
+			"shortname":"serahstar",
+			"url":"projects/serahstar.html"
+		},	
+{
+	"title":"Blow<br/><span class='subs' style='font-size:.7em;'>Corrupting Compression</span>",
+	"poster": "images/blow.jpg",
+	"shortname":"blow"
+},
+{
+	"title":"MCAD Merits Install",
+	"poster": "images/merits.jpg",
+	"shortname":"merits"
+},
+
+{
+	"title":"<span style='font-size:.9em;'>Nobel Symphony</span> <span class='subs' style='font-size:.7em;'>Group Project</span>",
+	"poster": "images/nobelsymphony.jpg",
+	"shortname":"nobelsymphony"
+},
+{
+	"title":"MCAD Interactive Media Projects",
+	"poster": "images/presence.jpg",
+	"shortname":"presence"
+},
+{
+	"title":"Kinetics <span class='subs' style='font-size:.7em;'>Lessons in Electrical Engineering</span>",
+	"poster": "images/kinetics.jpg",
+	"shortname":"kinetics"
+},
+{
+	"title":"Redefining<br/>Progress <span class='subs' style='font-size:.7em;'>Making the Most of Consumer Grade Lumens</span>",
+	"poster": "images/redefiningprogress.jpg",
+	"shortname":"redefiningprogress"
+},
+{
+	"title":"Umbrella Day NYC (not a link)",
+	"poster": "images/unbrellanyc.jpg",
+	"shortname":"unbrellanyc"
+},
+{
+	"title":"Umbrella Day NYC (not a link)",
+	"poster": "images/unbrellanyc.jpg",
+	"shortname":"unbrellanyc"
+}
   ],
   "other garbage": "xxx",
   "more garbage": "xxxxxx"
