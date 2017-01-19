@@ -158,7 +158,8 @@
 		{
 			"title":"3 Studios <span class='subs' style='font-size:.7em;'>Website for Architecture Studio</span>",
 			"poster": "images/desktops.jpg",
-			"shortname":"3_studios"
+			"shortname":"3_studios",
+			"url":"projects/3studios.html"
 		},
 		{
 			"title":"Serah Star <span class='subs' style='font-size:.7em;'>Photographer Website</span>",
