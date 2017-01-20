@@ -169,6 +169,11 @@ body{
 .info .no-title{
 	padding-top: 15px;
 }
+.info.in-gallery{
+	margin-top: 1.5em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 .info .project-title-wrap{
 	background-color: white;
 	padding: 15px 15px 0px 15px;
@@ -216,6 +221,7 @@ body{
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	margin-bottom: 1em;
 }
 .gallery li{
 	flex-basis: 25%;
@@ -225,7 +231,9 @@ body{
 	position: relative;
 	box-sizing: border-box;
 }
-
+h2{
+	font-family: 'Alfa Slab One', cursive;
+}
 .cta{
 	background-color: white;
 	color: #f100a4;
