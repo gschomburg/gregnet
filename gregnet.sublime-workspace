@@ -4,20 +4,36 @@
 		"selected_items":
 		[
 			[
+				"alig",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
 				"text",
 				"text-transform"
 			],
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"flex",
@@ -60,37 +76,10 @@
 	"buffers":
 	[
 		{
-			"file": "html/projects.json",
-			"settings":
-			{
-				"buffer_size": 6458,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/index.html",
-			"settings":
-			{
-				"buffer_size": 1149,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/projects/gregfont.html",
-			"settings":
-			{
-				"buffer_size": 5210,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "html/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6055,
-				"encoding": "UTF-8",
+				"buffer_size": 8692,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,43 +124,52 @@
 		"/C/Users/gschomburg/Documents/Projects/gregnet",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/featherlight",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects"
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js"
 	],
 	"file_history":
 	[
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css/style.css",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/about.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/.htaccess",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects.json",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/main.js",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/accenture.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/vsseries.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketching-in-hardware.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/3studios.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/s3iz.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/ebay.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketch.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketches.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/serahstar.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gemosaic.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/tsfim.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/twominuteposters.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/mcad.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/polandspring.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/bnsprototypes.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/hermanmiller.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gregfont.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/escape.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/drawbot.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/tsfim.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketching-in-hardware.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketch.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/serahstar.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/s3iz.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/prototypes.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/bnswebsite.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/brizo.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/combscript.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/cth.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/diffa.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/combscript.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/brizo.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/bnswebsite.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/accenture.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects.json",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gregfonts.html",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/project.js",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/css/style.css",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/disasterblaster.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/drawbot.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/ebay.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/escape.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gregfont.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/ibm.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/mcad.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/paintchat.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/polandspring.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/3studios.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/project.js",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gemosaic.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/hermanmiller.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/ofi.min.js",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/project,js",
+		"/C/Users/gschomburg/AppData/Local/Temp/7zOCCAF3C2E/README.md",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/bnsprototypes.html",
+		"/C/Users/gschomburg/AppData/Local/Temp/7zO06B9AA97/README.md",
+		"/C/Users/gschomburg/AppData/Local/Temp/7zO06B8FB3F/README.md",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/sketches.html",
+		"/C/Users/gschomburg/Documents/Projects/gregnet/html/projects/gregfonts.html",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/featherlight/featherlight.min.js",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/main.js",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/js/vimeo-player.js",
 		"/C/Users/gschomburg/Documents/Projects/cairn/cairn_unity/Assets/MergeScene.unity",
 		"/C/Users/gschomburg/.gitconfig",
@@ -183,7 +181,6 @@
 		"/C/Users/gschomburg/Documents/Projects/gregnet/html/featherlight/featherlight.min.css",
 		"/C/Users/gschomburg/AppData/Local/Temp/7zO0209C1B4/README.md",
 		"/C/Users/gschomburg/Documents/Projects/gregnet/notes.todo",
-		"/C/Users/gschomburg/Documents/Projects/gregnet/html/index.html",
 		"/C/Users/gschomburg/AppData/Local/Temp/7zO8D8D56D3/README.md",
 		"/C/Users/gschomburg/AppData/Local/Temp/7zO8D8B8C10/README.md",
 		"/C/Users/gschomburg/Documents/Projects/Playgrounds/.gitignore",
@@ -211,6 +208,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"about_01",
+			"s3iz",
+			"object-fit: cover;",
+			"before",
+			"sketch_mm_001",
+			"’",
+			"t",
+			"’",
+			"flex",
+			"  .",
+			"name",
+			";\n",
+			"  ",
+			"<li>",
+			"Interactive",
+			"sagittis",
+			"accenture_08",
+			"accenture_15",
+			"accenture_01",
+			"t_",
+			"ebay_04",
+			"ebay_05",
+			"ebay_10",
+			"gemosaic",
+			"t_",
+			"polandspring_10",
+			"t_",
+			"ibm_02",
+			"ibm_10",
+			"gemosaic",
+			"absolute",
+			"li",
+			"paintchat_05",
+			"paintchat_04",
+			"paintchat_05",
+			"paintchat_10",
+			"gemosaic",
+			" src=\"acip/acip",
+			"aicp",
+			"aicp_01",
+			"Slab",
+			"gregfont_02",
 			"3studios_08",
 			"gemosaic",
 			"sketch_02",
@@ -297,111 +337,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/projects.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4228,
-								4228
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2731.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "html/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/projects/gregfont.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4668,
-								4668
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 690.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "html/css/style.css",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6055,
+						"buffer_size": 8692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1475,
-								1475
+								8211,
+								8211
 							]
 						],
 						"settings":
@@ -410,10 +363,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3519.0,
+						"translation.y": 13590.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -500,7 +453,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 651.0,
+	"side_bar_width": 430.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

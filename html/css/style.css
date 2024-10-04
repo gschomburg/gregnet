@@ -24,9 +24,43 @@ body{
 	padding: 0;
 	list-style: none;
 	
+	display: -webkit-flex;
+	display: -ms-flex;
 	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	max-width: 1200px;
+}
+.header{
+	/*height: 3em;*/
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: .6em;
+	background-color: #f100a4;
+	box-sizing: border-box;
+	font-family: 'Alfa Slab One', cursive;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header .title{
+	font-size: 2.1em;
+    
+    display: inline-block;
+}
+.header ul{
+	float: right;
+	text-align: right;
+	list-style: none;
+	padding: 0;
+}
+.header a{
+	color: white;
+	text-decoration: none;
 }
 
 #tiles > li{
@@ -37,6 +71,10 @@ body{
 	position: relative;
 	z-index: 1;
 	
+	-webkit-flex-shrink: 1;
+	-webkit-flex-grow: 1;
+	-webkit-flex-basis: 25%;
+
 	flex-shrink: 1;
 	flex-grow: 1;
 	flex-basis: 25%;
@@ -48,7 +86,7 @@ body{
 }
 
 /*square flex hack*/
-#tiles > li:before {
+#tiles > li.project:before {
 	content:'';
 	float:left;
 	padding-top:150%;
@@ -56,12 +94,15 @@ body{
 
 .cover {
 	object-fit: cover;
+	font-family: 'object-fit: cover;';
 	top: -2px;
 	left: -2px;
 	
 	width: 102%;
 	height: 102%;
 	position: absolute;
+	transform: scale(1, 1);
+	backface-visibility: hidden;
 }
 
 .overlay {
@@ -93,6 +134,7 @@ body{
 	padding: .6em;
 	background-color: #f100a4;
 	/*background: -webkit-linear-gradient(#07f0ff, #f100a4);*/
+	-webkit-flex-basis: 50%;
 	flex-basis: 50%;
 /*	top: 0;
 	bottom: 0;
@@ -107,7 +149,12 @@ body{
 }
 .intro .name{
 	font-family: 'Alfa Slab One', cursive;
-	font-size: 2.1em;
+	font-size: 4em;
+	line-height: 1em;
+}
+.intro a{
+	color: white;
+	text-decoration: none;
 }
 .intro .contact{
 	padding: 0;
@@ -125,7 +172,10 @@ body{
 #content{
 	max-width: 1200px;
 	margin: 0 auto;
+	display:-webkit-flex;
 	display: flex;
+
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
 	background-color: white;
@@ -134,6 +184,7 @@ body{
 	background-color: pink;
 	height: 50vw;
 	max-height: 600px;
+	-webkit-flex-basis: 100%;
 	flex-basis: 100%;
 	overflow: hidden;
 	position: relative;
@@ -151,6 +202,8 @@ body{
 
 .info{
 	background-color: white;
+	-webkit-flex-basis: 75%;
+	-webkit-flex-grow: 0;
 	flex-basis: 75%;
 	flex-grow: 0;
 	color: black;
@@ -188,6 +241,7 @@ body{
 	font-size: 4em;
 	line-height: .9em;
 	color: #07f0ff;
+	padding-bottom: .15em;
 
 	/*gradient*/
 	background: -webkit-linear-gradient(#07f0ff, #f100a4);
@@ -199,6 +253,34 @@ body{
 	margin-left: 15px;
 	margin-right: 15px;
 	line-height: 1.5em
+}
+.project-copy ul{
+	list-style: none;
+	padding: 0;
+}
+.project-copy ul.overview li{
+	/*padding: 10px;*/
+	margin-bottom: 1.4em;
+}
+.project-copy ul.overview li span{
+	background-color: #07f0ff;
+	color: #03646a;
+	padding: .6em;
+	line-height: 2em;
+	/*margin-bottom: .2em;*/
+	/*margin: 0;*/
+}
+.project-copy ul.credits{
+	/*font-size: .9em;*/
+	/*background-color: #f7f7f7;*/
+	/*border: 1px dashed #f100a4*/
+	/*color: #555555;*/
+}
+.project-copy a{
+	background-color: #f100a4;
+	color: white;
+	text-decoration: none;
+	padding: 0 .3em;
 }
 .info .note{
 	background-color: #07f0ff;
@@ -213,17 +295,24 @@ body{
 }
 
 .gallery{
-	flex-basis: 100%;
+	
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	-webkit-flex-basis: 100%;
+	-webkit-align-content: flex-start;
+
 	display: flex;
 	flex-wrap: wrap;
+	flex-basis: 100%;
 	align-content: flex-start;
 
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	margin-bottom: 1em;
+	/*margin-bottom: 1em;*/
 }
 .gallery li{
+	-webkit-flex-basis: 25%;
 	flex-basis: 25%;
 	/*flex: 1 1 25%;*/
 	overflow: hidden;
@@ -233,6 +322,14 @@ body{
 }
 h2{
 	font-family: 'Alfa Slab One', cursive;
+}
+.gallery li a{
+	display: block;
+	/*position: relative;
+	top:0;
+	bottom: 0;
+	right:0;
+	background-color: blue;*/
 }
 .cta{
 	background-color: white;
@@ -249,6 +346,30 @@ h2{
 	text-align: center;
 	pointer-events: none;
 }
+/*.label-overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    pointer-events: none;
+}*/
+.label{
+    background-color: white;	
+	color: #f100a4;
+	text-transform: uppercase;
+	position: absolute;
+	bottom:0;
+	/*display: inline;*/
+	padding: 6px 15px 3px 15px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 1.2em;
+
+	pointer-events: none;
+	
+}
 .gallery > li:before {
 	content:'';
 	float:left;
@@ -256,8 +377,13 @@ h2{
 }
 
 .gallery-full{
-	flex-basis: 100%;
+	display: -webkit-flex;
+	-webkit-flex-basis: 100%;
+	-webkit-flex-wrap: wrap;
+	-webkit-align-content: flex-start;
+
 	display: flex;
+	flex-basis: 100%;
 	flex-wrap: wrap;
 	align-content: flex-start;
 
@@ -266,6 +392,8 @@ h2{
 	list-style: none;
 }
 .gallery-full li{
+	-webkit-flex-basis: 100%;
+
 	flex-basis: 100%;
 	/*flex: 1 1 25%;*/
 	overflow: hidden;
@@ -280,6 +408,7 @@ h2{
 }
 
 .gallery li.full{
+	-webkit-flex-basis: 100%;
 	flex-basis: 100%;
 	/*flex: 1 1 25%;*/
 	overflow: hidden;
@@ -293,6 +422,7 @@ h2{
 	padding-top:50%;
 }
 .gallery li.half{
+	-webkit-flex-basis: 50%;
 	flex-basis: 50%;
 	/*flex: 1 1 25%;*/
 	overflow: hidden;
@@ -358,14 +488,23 @@ h2{
   .info .project-title{
   	font-size: 3em;
   }
+  .intro .name{
+  	font-size: 2em;
+  }
   .gallery {
+  	-webkit-flex-basis: 100%;
   	flex-basis: 100%;
   }
   .info {
+  	-webkit-flex-basis: 100%;
   	flex-basis: 100%;
   }
   #tiles > li{
+  	-webkit-flex-basis: 50%;
   	flex-basis: 50%;
+  }
+  .mobile-hidden{
+  	display: none;
   }
 }
 

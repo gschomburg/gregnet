@@ -1,6 +1,5 @@
 $(document).ready(function(){
-	console.log("hw");
-
+	objectFitImages();
 	load = function(){
 		$.getJSON( "projects.json").done(function( data ) 
 		{
@@ -19,6 +18,9 @@ $(document).ready(function(){
 				// 	return false;
 				// }
 			});
+			$('#tiles').append('<li class="fill"></li>');
+			$('#tiles').append('<li class="fill"></li>');
+			$('#tiles').append('<li class="fill"></li>');
 		});
 		  /*
 		  $.each( data, function( key, val ) {

@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+	objectFitImages();
 	if($('.vimeo-gallery').length<1) return;
 
 	$('.vimeo-gallery').featherlight({

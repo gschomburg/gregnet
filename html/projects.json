@@ -74,7 +74,7 @@
 			"title":"Misc Projects & Prototypes",
 			"poster": "images/visualizer.jpg",
 			"shortname":"prototypes",
-			"url":"projects/bnsprototypes.html"
+			"url":"projects/prototypes.html"
 		},
 		{
 			"title":"Sutton<br/>Nassau & Kosciuszko <span class='subs' style='font-size:.7em;'>Single Stroke Fonts</span>",
@@ -96,7 +96,7 @@
 		},
 		{
 			"title":"The<br/>Studio for<br/>Interactive Media",
-			"subtitle":"Website & Blog",
+			"subtitle":"Installations & New Media",
 			"poster": "images/tsfim_website.jpg",
 			"shortname":"tsfim_website",
 			"url":"projects/tsfim.html"
@@ -114,7 +114,7 @@
 			"url":"projects/diffa.html"
 		},
 		{
-			"title":"IBM <span class='subs' style='font-size:.7em;'>Color Sign Thing</span>",
+			"title":"IBM <span class='subs' style='font-size:.7em;'>Supply Chain Billboard</span>",
 			"poster": "images/IBM_1.png",
 			"shortname":"ibm",
 			"url":"projects/ibm.html"
@@ -144,10 +144,11 @@
 			"url":"projects/mcad.html"
 		},
 		{
-			"title":"This Can Hurt You",
-			"subtitle":"Web Scale Paintball Chamber",
+			"title":"Words Can Hurt You",
+			"subtitle":"Web Scale Paintball Chatroom",
 			"poster": "images/paintballchat.jpg",
-			"shortname":"paintballchat"
+			"shortname":"paintballchat",
+			"url":"projects/paintchat.html"
 		},
 		{
 			"title":"s3iz<br/><span class='subs' style='font-size:.7em;'>Freelance Flash Design Development & Prototypes</span>",
@@ -166,48 +167,7 @@
 			"poster": "images/serahstar.jpg",
 			"shortname":"serahstar",
 			"url":"projects/serahstar.html"
-		},	
-{
-	"title":"Blow<br/><span class='subs' style='font-size:.7em;'>Corrupting Compression</span>",
-	"poster": "images/blow.jpg",
-	"shortname":"blow"
-},
-{
-	"title":"MCAD Merits Install",
-	"poster": "images/merits.jpg",
-	"shortname":"merits"
-},
-
-{
-	"title":"<span style='font-size:.9em;'>Nobel Symphony</span> <span class='subs' style='font-size:.7em;'>Group Project</span>",
-	"poster": "images/nobelsymphony.jpg",
-	"shortname":"nobelsymphony"
-},
-{
-	"title":"MCAD Interactive Media Projects",
-	"poster": "images/presence.jpg",
-	"shortname":"presence"
-},
-{
-	"title":"Kinetics <span class='subs' style='font-size:.7em;'>Lessons in Electrical Engineering</span>",
-	"poster": "images/kinetics.jpg",
-	"shortname":"kinetics"
-},
-{
-	"title":"Redefining<br/>Progress <span class='subs' style='font-size:.7em;'>Making the Most of Consumer Grade Lumens</span>",
-	"poster": "images/redefiningprogress.jpg",
-	"shortname":"redefiningprogress"
-},
-{
-	"title":"Umbrella Day NYC (not a link)",
-	"poster": "images/unbrellanyc.jpg",
-	"shortname":"unbrellanyc"
-},
-{
-	"title":"Umbrella Day NYC (not a link)",
-	"poster": "images/unbrellanyc.jpg",
-	"shortname":"unbrellanyc"
-}
+		}
   ],
   "other garbage": "xxx",
   "more garbage": "xxxxxx"

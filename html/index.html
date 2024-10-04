@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<title>Greg Schomburg</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-	
+	<script type="text/javascript" src="js/ofi.min.js"></script>
+
 	<script type="text/javascript" src="js/main.js"></script>
 	  <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Yantramanav:400,300,100,700,900,500' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Greg Schomburg is me">
+	<meta name="description" content="I am an interaction designer and developer located in Brooklyn, NY. I have worked on a variety of projects ranging from websites and kiosks to installations and VR experiences.">
 </head>
 <body>
+	<div class="header">
+	<div class="title">Greg Schomburg</div>
+		<ul>
+			<li><a href="projects/about.html">About</a></li>
+			<li><a href="mailto:gschomburg@gmail.com">Contact</a></li>
+		</ul>
+		<!-- <li><a href="https://www.linkedin.com/in/gschomburg">linkedin</a></li>
+		<li><a href="https://www.instagram.com/gschomburg/">instagram</a></li> -->
+	</div>
 	<ul id="tiles">
+	<!--
 		<li class="intro">
 			<div class="name">
-				Greg<br/>Schomburg
+				Greg Schomburg
 			</div>
+			<p class="mobile-hidden">I am an interaction designer and developer located in Brooklyn, NY. I have worked on a variety of projects ranging from websites and kiosks to installations and VR experiences. This is a portfolio of some of that work.
 			<ul class="contact">
-				<li>gschomburg@gmail.com</li>
-				<li>(612) 423 2883</li>
-				<li>Resume</li>		
+				<li><a href="https://www.linkedin.com/in/gschomburg">linkedin</a></li>
+				<li><a href="https://www.instagram.com/gschomburg/">instagram</a></li>
+				<li><a href="projects/about.html">about</a></li>
+				<li><a href="mailto:gschomburg@gmail.com">gschomburg@gmail.com</a></li>
 			</ul>
 		</li>
+		-->
 	</ul>
 	<script id="projectTemplate" type="x-tmpl-mustache">
-		<li><a href="{{ project.url }}"><img class="cover" src="{{ project.poster }}">
+		<li class="project"><a href="{{ project.url }}"><img class="cover" src="{{ project.poster }}">
 			<div class="overlay">{{{ project.title }}}<span class='subs'>{{{ project.subtitle }}}</span></div></a>
 		</li>
 	</script>
